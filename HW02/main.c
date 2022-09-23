@@ -18,9 +18,11 @@ int main() {
 
     if (num[0] < -10000 || num[0] > 10000) {
         printf("Vstup je mimo interval!");
+        printf("\n");
         return(0);
     } else if (num[1] < -10000 || num[1] > 10000) {
         printf("Vstup je mimo interval!");
+        printf("\n");
         return(0);
     } else {
         //OTUPUT DECIMAL
